@@ -111,7 +111,7 @@ section {
 
 .explore:hover{
       background-color: #c2ff3f;  
-
+box-shadow: 10px 10px 30px palevioletred;
 }
 
 @media screen and (max-width: 660px) {
