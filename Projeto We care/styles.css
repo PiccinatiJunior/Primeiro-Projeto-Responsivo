@@ -11,6 +11,21 @@
     height: 370px;
     margin-left: 125px;
     display: inline-block;
+    box-shadow: 5px 21px 30px rgba(13, 227, 255, 0.5);
+    border-radius: 90px;
+    animation: flutuar 3s ease-in-out infinite;
+    }
+
+    @keyframes flutuar {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
 }
 
 header {
@@ -109,9 +124,14 @@ section {
 
 }
 
-.explore:hover{
-      background-color: #c2ff3f;  
-box-shadow: 10px 10px 30px palevioletred;
+.explore:hover {
+    background-color: #c2ff3f;
+    box-shadow: 10px 10px 30px rgba(13, 227, 255, 0.6);
+    width: 220px;
+    transition: ease-in-out 0.8s;
+
+
+
 }
 
 @media screen and (max-width: 660px) {
@@ -125,8 +145,8 @@ box-shadow: 10px 10px 30px palevioletred;
         width: 354px;
         height: 354px;
         margin: 0px 5%;
-        
-        
+
+
     }
 
 
@@ -150,14 +170,14 @@ box-shadow: 10px 10px 30px palevioletred;
         margin: 2px 10px;
         height: 30px;
         line-height: 10px;
-        
+
     }
 
     .explore {
         margin: 1px 0px 0px 0px;
         width: 200px;
         height: 50px;
-        
+
 
     }
 
@@ -167,19 +187,19 @@ box-shadow: 10px 10px 30px palevioletred;
         margin: 0px 0px 0px 40%;
         padding: 0%;
         width: 100%;
-        
-        
+
+
     }
 
 
-    section{
+    section {
         align-items: center;
         width: 60%;
     }
 
-body{
-    position: static;
-    margin: 0px 15px;
-}
+    body {
+        position: static;
+        margin: 0px 15px;
+    }
 
 }
